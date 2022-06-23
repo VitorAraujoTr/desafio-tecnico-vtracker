@@ -16,3 +16,7 @@ Desafio proposto pelo time vtracker.
 2) Abrir o terminal na pasta do projeto;
 3) Rodar o comando 'mvn package' para gerar o jar da aplicação;
 4) Rodar o comando 'java -jar target/desafio-tecnico-vtracker-1.0.0.jar GeekHunter' para rodar a aplicação.
+
+**Configuração utilizada:**
+- Java 11.0.15
+- Maven 3.6.3
