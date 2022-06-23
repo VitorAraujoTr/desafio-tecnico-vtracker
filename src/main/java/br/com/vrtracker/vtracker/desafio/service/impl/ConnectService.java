@@ -1,7 +1,5 @@
 package br.com.vrtracker.vtracker.desafio.service.impl;
 
-import br.com.vrtracker.vtracker.desafio.util.JsonUtil;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
