@@ -11,7 +11,7 @@ public class NewsAPI3 implements Plataforma {
     public void chamaApi(String name) {
 
         String URL = URL_NEW_API + "/v2/everything?q=" + name +
-                "&from=2022-05-22&sortBy=publishedAt&apiKey=API_KEY";
+                "&from=2022-05-23&sortBy=publishedAt&apiKey=API_KEY";
 
         ConnectService.connect(URL);
     }

@@ -10,7 +10,7 @@
     </parent>
     <groupId>br.com.vrtracker</groupId>
     <artifactId>desafio-tecnico-vtracker</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>desafio-tecnico-vtracker</name>
     <description>desafio-tecnico-vtracker</description>
     <properties>
