@@ -2,7 +2,6 @@ package br.com.vrtracker.vtracker.desafio;
 
 import br.com.vrtracker.vtracker.desafio.main.Main;
 import br.com.vrtracker.vtracker.desafio.main.MainInterface;
-import br.com.vrtracker.vtracker.desafio.service.impl.NewsAPI;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

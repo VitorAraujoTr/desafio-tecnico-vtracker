@@ -14,9 +14,7 @@ public class Main implements MainInterface{
 
         System.out.println("-- INICIO --");
 
-        for(Plataforma plataforma : plataformas) {
-            plataforma.chamaApi(arg);
-        }
+        plataformas.forEach(e -> e.chamaApi(arg));
 
         System.out.println("-- FIM --");
     }
