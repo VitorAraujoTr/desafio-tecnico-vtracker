@@ -1,5 +1,7 @@
 package br.com.vrtracker.vtracker.desafio.service.impl;
 
+import br.com.vrtracker.vtracker.desafio.util.JsonUtil;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -17,10 +19,10 @@ public class ConnectService {
 
             BufferedReader resp = new BufferedReader(new InputStreamReader(con.getInputStream()));
 
-            System.out.println(resp);
+            System.out.println(JsonUtil.converteJsonEmString(resp));
 
         } catch (IOException e) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
     }
 }
